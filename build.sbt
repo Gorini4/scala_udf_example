@@ -2,8 +2,8 @@ name := "scala_udf"
 
 version := "0.1"
 
-scalaVersion := "2.11.12"
+scalaVersion := "2.12.8"
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-sql" % "2.4.7" % Provided
+  "org.apache.spark" %% "spark-sql" % "3.4.0" % Provided
 )
